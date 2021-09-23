@@ -1,0 +1,486 @@
+@media (max-width: 1450px) {
+  .container {
+    max-width: 690px;
+  }
+
+  .header-nav {
+    margin: 0 auto 50px auto;
+  }
+
+  .header-wrapper {
+    flex-direction: column;
+  }
+
+  .header-nav-item {
+    margin-right: 30px;
+  }
+
+  .bar-text {
+    margin: 290px auto 100px;
+}
+
+  .phone-number {
+    margin: 0 auto;
+  } 
+
+  .first-screen-slider {
+    display: none;
+  }
+
+  .about-theater-photo {
+    display: none;
+  }
+
+  .about-best-theater-digits {
+    margin-right: 0;
+  }
+
+  .projects-desktop {
+    display: none;
+  }
+
+  .projects-mobile {
+    display: block;
+  }
+
+  .project-item:first-child {
+    margin-left: 0;
+  }
+
+  .theater-rating-wrapper {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .years-container {
+    margin-right: 58px;
+  }
+
+  .rating-descr {
+    font-size: 34px;
+  }
+
+  .rating-stars {
+    width: 192px;
+  }
+
+  .rating-stars img {
+    width: 22px;
+  }
+
+  .partner-logos-desktop {
+    display: none;
+  }
+
+  .partner-logos-mobile {
+    display: block;
+    
+  }
+
+  .contact-wrapper {
+    order: 2;
+  }
+
+  form {
+    order: 1;
+  }
+
+  textarea {
+    width: 270px;
+  }
+
+  .form-submit {
+    width: 690px;
+  }
+
+  .contact-phones-address {
+    margin-top: 80px;
+    width: 690px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact-email,
+  .contact-address {
+    text-align: right;
+  }
+
+  .form-wrapper {
+    width: 690px;
+  }
+
+  .contacts-and-form-wrapper {
+    width: 690px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 690px;
+  }
+
+  .header-nav {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 325px;
+    height: 100vh;
+    background-color: #333333;
+    z-index: 100;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: all 0.3s ease-out;
+  }
+
+  .header-wrapper.active {
+    position: static;
+  }
+
+  .header-nav.active {
+    left: 0;
+    transition: all 0.3s ease-out;
+  }
+
+  .header-nav-list {
+    flex-direction: column;
+    padding-top: 125px;
+    padding-left: 60px;
+  }
+
+  .header-nav-item {
+    margin-bottom: 35px;
+  }
+
+  .header-nav-link {
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+  }
+
+  .header-burger,
+  .header-burger-close {
+    display: block;
+  }
+
+  .header-burger.header-burger-hide {
+    display: none;
+  }
+
+  .header-burger-close {
+    position: relative;
+    top: 38px;
+    left: 246px;
+  }
+
+  .header-burger-close-line-first,
+  .header-burger-close-line-second {
+    position: absolute;
+    width: 20px;
+  }
+
+  .header-burger-close-line-first {
+    border-top: 3px solid #ffffff;
+    transform: rotate(45deg);
+  }
+
+  .header-burger-close-line-second {
+    border-top: 3px solid #ffffff;
+    transform: rotate(-45deg);
+  }
+
+  .mobile-soc-links-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    margin: 89px auto;
+  }
+
+  .mobile-soc-links-wrapper a:nth-child(odd) {
+    margin-right: 50px;
+  }
+
+  .mobile-soc-links-wrapper a:first-child {
+    margin-left: 9px;
+    margin-right: 60px;
+  }
+
+  .mobile-soc-links-wrapper a:nth-child(1),
+  .mobile-soc-links-wrapper a:nth-child(2) {
+    margin-bottom: 50px;
+  }
+
+  .phone-number {
+    margin: 0 0 0 auto;
+  }
+
+  .first-screen-header {
+    margin-top: 0;
+  }
+
+  .bar {
+    display: none;
+  }
+
+  .header-section {
+    margin-top: 90px;
+    margin-bottom: 60px;
+  }
+
+  .btn-yellow-up{
+    display: none;
+  }
+
+  .about-content {
+    margin-bottom: 90px;
+  }
+
+  .years-container {
+    margin: 0 10px;
+  }
+
+  .rating-stars {
+    width: 160px;
+  }
+
+  .rating-descr {
+    font-size: 29px;
+  }
+
+  .contact-phones-address {
+    margin-top: 60px;
+  }
+
+  .footer {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 510px;
+  }
+
+  .first-screen {
+    height: 800px;
+  }
+  .first-screen-header {    
+    font-size: 45px;    
+}
+.first-screen {
+  min-height: 600px;
+  background-image: url(../img/bt.png);
+  background-position: top center;
+  background-size: cover;
+}
+.header-section {
+  margin: 50px 0;  
+}
+
+
+  .btn-yellow-up{
+    display: table;
+  }
+
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-best-theater-digits {
+    margin-left: 0;
+    max-width: 510px;
+  }
+
+  .about-best-theater-header {
+    text-align: center;
+    font-size: 15px; 
+    margin-bottom: 25px;
+  }
+
+  .about-best-theater-descr {
+    margin-bottom: 45px;
+    text-align: center;
+    font-size: 9px;
+    margin-bottom: 30px;
+  }
+
+  .about-best-theater-container {
+    display: flex;
+  }
+
+  .about-best-theater-digits-seats {
+    margin-right: 60px;
+  }
+
+  .theater-rating-wrapper {
+    margin-top: 90px;
+  }
+
+  .rating-descr {
+    padding-right: 10px;
+    font-size: 20px;
+  }
+
+  .contacts-and-form-wrapper {
+    width: 510px;
+  }
+
+  .form-wrapper {
+    width: 510px;
+  }
+
+  .form-submit {
+    width: 510px;
+  }
+
+  .contact-phones-address {
+    width: 510px;
+    margin-top: 50px;
+  }
+
+  .form-inputs {
+    max-width: 510px;
+  }
+
+  .form-inputs input {
+    width: 230px;
+  }
+
+  textarea {
+    margin-left: 0;
+    margin-top: 30px;
+    width: 510px;
+  }
+
+  .form-submit {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+
+  .form-submit a {
+    margin-bottom: 30px;
+  }
+
+  .form-submit-descr {
+    text-align: center;
+    width: 425px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contacts-and-form-wrapper,
+  .form-wrapper,
+  .form-submit,
+  .contact-phones-address,
+  .form-inputs,
+  textarea,
+  .form-submit-descr,
+  .contacts .container,
+  .footer {
+    max-width: 320px;
+  }
+
+  .container {
+    padding: 0 20px;
+   
+  }
+  .header-section {    
+    font-size: 28px;    
+}
+  .first-screen-header {
+    font-size: 35px;
+    margin: 117px 0 40px;
+    margin: 0 0 40px;
+}
+.first-screen {
+  height: 400px;
+  min-height: 400px;
+}
+
+.first-screen-content {
+  padding-top: 120px;
+}
+.first-screen-header {
+  
+  margin: 0px;
+}
+
+  .first-screen-offer {
+    margin-right: 0;
+  }
+  .first-screen-text {    
+    font-size: 9px;  
+    margin-bottom: 40px;  
+}
+  .contact-phones,
+  .contact-addresses {
+    width: 150px;
+  }
+  .about-content {
+    margin-bottom: 50px;
+}
+.theater-rating {  
+  height: 80%;
+}
+.theater-rating-wrapper {
+  height: max-content;
+}
+.year-yellow {  
+  font-size: 46px;
+  line-height: 75px;
+}
+.rating-descr {
+  font-size: 18px;
+}
+  .form-wrapper,
+  .footer {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .form-inputs input {
+    width: 150px;
+  }
+  .form-submit-descr {    
+    font-size: 9px;    
+}
+
+  
+  .contact-phones-address {
+    
+    font-size: 9px;
+    line-height: 0px;
+    
+}
+
+  .about-best-theater-digits-seats {
+    margin-right: 40px;
+  }
+  .years-container {
+    margin: 126px 10px;
+}  
+.btn-yellow {
+  line-height: 30px;
+  font-size: 12px;
+  padding: 0px 30px;
+  height: 30px;
+  
+}
+.project-title,
+.project-date{
+  font-size: 12px;
+}
+.footer {
+  margin-top: 5px;
+}
+.footer .container {
+  height: 48px;  
+}
+.footer-left, .footer-right {  
+  font-size: 9px;  
+}
+.partner-item {
+  width: 130px;  
+}
+}
